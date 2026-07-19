@@ -3,22 +3,22 @@ class YiAgent < Formula
   homepage "https://github.com/YichenGong/yi-agent"
   head "https://github.com/YichenGong/yi-agent.git", branch: "main"
   license "MIT"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_intel do
-      url "https://github.com/YichenGong/yi-agent/releases/download/v0.1.0/yi-agent-x86_64-apple-darwin.tar.gz"
-      sha256 "18e969abe55c5aa61361473f48dcb1bb0e806eaa0df0cd9e5426e130c52c2d62"
+      url "https://github.com/YichenGong/yi-agent/releases/download/v0.1.1/yi-agent-x86_64-apple-darwin.tar.gz"
+      sha256 "8d8b623af5c0db480528cbba46b6e458fb3a4671662a8becb40bbdaaec758256"
     end
     on_arm do
-      url "https://github.com/YichenGong/yi-agent/releases/download/v0.1.0/yi-agent-aarch64-apple-darwin.tar.gz"
-      sha256 "4e94efec34687bbb28342a11781fb58655db0255c87d408c9849111f3296238d"
+      url "https://github.com/YichenGong/yi-agent/releases/download/v0.1.1/yi-agent-aarch64-apple-darwin.tar.gz"
+      sha256 "bb6921a404d45c890d74009fa662ac85af3bd9b921e7e26999bad3414c55e7a4"
     end
   end
 
   on_linux do
-    url "https://github.com/YichenGong/yi-agent/releases/download/v0.1.0/yi-agent-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "a7afcd9cc0baa42b1097a725a06b1bb292a4c2bb66615c5a1994570ea34051b4"
+    url "https://github.com/YichenGong/yi-agent/releases/download/v0.1.1/yi-agent-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "476bc93e0c565e502835fa83ee9e333d49ce6726b2ed97abe132ddcb95a13153"
   end
 
   def install
